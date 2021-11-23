@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import EmployeesTable from './components/employee'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+     <EmployeesTable ></EmployeesTable>
   </React.StrictMode>,
   document.getElementById('root')
 );
